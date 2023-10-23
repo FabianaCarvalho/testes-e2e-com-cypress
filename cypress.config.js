@@ -7,11 +7,9 @@ module.exports = defineConfig({
     requestTimeout: 9000000,
     env: {
       viewportWidthBreakpoint: 768,
-    },
-    setupNodeEvents(on, config) {
-      // implement node event listeners here
-    },
+    }
   },
-  video: true
+  video: true,
+  projectId: 'uaf818'
 })
 
